@@ -1,0 +1,29 @@
+body {
+  background-color: #131722;
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: #1a1e2a;
+  transition: all 0.5s;
+  /* color: #12151f; */
+}
+.fa-brands {
+  border: solid 1px white;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.icon1:hover {
+  background-color: #2374e1;
+}
+.icon2:hover {
+  background-color: #f24574;
+}
+.icon3:hover {
+  background-color: #1ed760;
+}
+.showPassword,
+.logout {
+  cursor: pointer;
+}
